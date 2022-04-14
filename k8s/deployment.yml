@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: hello_flask_app:1.0.1
+          image: hello_flask_app:1.0
           imagePullPolicy: Never
           ports:
             - containerPort: 5000

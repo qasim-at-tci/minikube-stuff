@@ -2,7 +2,7 @@ version: "3.9"
 services:
   web:
     build: .
-    image: hello_flask_app:1.0.1
+    image: hello_flask_app:1.0
     ports:
       - "80:5000"
     restart: always
